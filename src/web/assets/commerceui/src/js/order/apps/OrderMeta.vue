@@ -86,7 +86,7 @@
         <div class="meta read-only" v-if="!editing">
             <div class="data">
                 <h5 class="heading">{{"Reference"|t('commerce')}}</h5>
-                <p class="value">{{draft.order.reference}}</p>
+                <div class="value order-number-value"><div>{{draft.order.reference}}</div></div>
             </div>
 
             <div class="data">
